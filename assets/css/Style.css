@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Original Surfer', cursive;
+}
+/*__________________________________________________________________________________________________________________________________________________________*/
+.estiloBody{
+    background-color: rgb(205, 216, 247);
+    align-items: center;
+    
+    flex-direction: column;
+    align-items: center;
+}
+/*__________________________________________________________________________________________________________________________________________________________*/
+.estiloHeader{
+    background-color: rgb(100, 121, 237);
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    margin: 20px ;
+    box-shadow:  0 0 10px rgba(109, 87, 51, 0.7); 
+
+}
+.estiloUL{
+    display: flex;
+}
+
+.estiloLi{
+    list-style: none;
+    padding: 2px 20px 2px 20px;
+
+}
+
+.estiloA{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: larger;
+    font-style: italic;
+    color: black;
+
+}
+
+.estiloNav{
+    margin: 20px 50px 20px 20px;
+}
+/*__________________________________________________________________________________________________________________________________________________________*/
+.Titulo{
+    
+    text-align: center;
+}
+/*__________________________________________________________________________________________________________________________________________________________*/
+.estiloMain{
+    background-color: cornflowerblue;
+    height: 500PX;
+    margin: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow:  0 0 10px rgba(109, 87, 51, 0.7); 
+
+}
+
+.estiloSeccion{
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+
+
+}
+.contenedorImagen{
+    width: 30%;
+
+    
+}
+
+.contenedorTexto{
+    width: 300px;
+    padding: 3% 3% 0 0;
+    order: 2;
+    text-align: justify ;
+}
+/*__________________________________________________________________________________________________________________________________________________________*/
+
+.estiloFooter{
+    background-color: rgb(41, 41, 51);
+    height: 100px;
+    justify-content: center;
+    margin: 25px;
+    box-shadow:  0 0 10px rgba(109, 87, 51, 0.7); 
+
+}
+
+.contenedorGithub{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
+
+.iconoGithub{
+    height: 50px;
+    padding: auto;
+
+
+}
+
+.usuarioGithub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textoFooter{
+     font-weight: 300;
+     color: seashell;
+}
+
+
+/*ESTILOS PARA PAGINA RESPONSIVE*/
+
+@media screen and (max-width:800px) {
+
+    .contenedorTexto{
+        width: 100%;
+    }
+    .contenedorImagen{
+        width: 100%;
+        order: 1;
+    }
+
+    .estiloSeccion{
+        flex-direction: column;
+    
+    }
+
+}
